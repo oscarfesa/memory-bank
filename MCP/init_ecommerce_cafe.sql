@@ -17,7 +17,6 @@
 -- Para ejecutar este script:
 -- psql -h 127.0.0.1 -p 5432 -U postgres -f init_ecommerce_cafe.sql
 
-CREATE USER postgres WITH PASSWORD 'postgres';
 CREATE DATABASE ecommerce_cafe;
 ALTER DATABASE ecommerce_cafe OWNER TO postgres;
 
